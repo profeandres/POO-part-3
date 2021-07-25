@@ -27,6 +27,9 @@ public class principal {
         CantDigitosPrimos primos1=new CantDigitosPrimos(num1);
         CantDigitosPrimos primos2=new CantDigitosPrimos(num2);
 
+        CantDigitos6 cant6_1=new CantDigitos6(num1);
+        CantDigitos6 cant6_2=new CantDigitos6(num1);
+
         digitos1.MostrarDigitos();
         digitos2.MostrarDigitos();
 
@@ -38,5 +41,8 @@ public class principal {
 
         primos1.MostrarPrimos();
         primos2.MostrarPrimos();
+
+        cant6_1.MostrarDigitos6();
+        cant6_2.MostrarDigitos6();
     }
 }
