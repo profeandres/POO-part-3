@@ -13,7 +13,7 @@ public class CantDigitosPrimos {
             num1= (int) (num1-dig1*Math.pow(10, CantDigitos1-1));
             ContPrim1=0;
             for (int i=2;i<dig1;i++){
-                if (dig1%i==0 & dig1!=2 & dig1!=1){
+                if (dig1%i==0 & dig1!=2){
                     ContPrim1++;
                     break;
                 }
